@@ -1,0 +1,6 @@
+{
+  "linear_probe_test_acc": 0.7615384615384615,
+  "finetune_test_acc": 0.8923076923076924,
+  "trainable_params_probe": 3078,
+  "total_params": 11179590
+}

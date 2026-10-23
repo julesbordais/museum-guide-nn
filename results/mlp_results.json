@@ -1,0 +1,140 @@
+{
+  "baseline": {
+    "params": 6458758,
+    "best_val_acc": 0.48398576512455516,
+    "best_epoch": 6,
+    "test_acc": 0.4269230769230769,
+    "test_loss": 1.4237079858779906,
+    "diverged": false,
+    "first_layer_grad_epoch1": 11.515253376960754,
+    "last_layer_grad_epoch1": 1.477286660671234,
+    "dead_relu_last_epoch": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "report": {
+      "Baroque": {
+        "precision": 0.28378378378378377,
+        "recall": 0.7,
+        "f1-score": 0.40384615384615385,
+        "support": 30.0
+      },
+      "Cubism": {
+        "precision": 0.4716981132075472,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.46296296296296297,
+        "support": 55.0
+      },
+      "Impressionism": {
+        "precision": 0.6086956521739131,
+        "recall": 0.49122807017543857,
+        "f1-score": 0.5436893203883495,
+        "support": 57.0
+      },
+      "Pop_Art": {
+        "precision": 0.5,
+        "recall": 0.23076923076923078,
+        "f1-score": 0.3157894736842105,
+        "support": 39.0
+      },
+      "Renaissance_style": {
+        "precision": 0.2962962962962963,
+        "recall": 0.22857142857142856,
+        "f1-score": 0.25806451612903225,
+        "support": 35.0
+      },
+      "Ukiyo_e": {
+        "precision": 0.47619047619047616,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.46511627906976744,
+        "support": 44.0
+      },
+      "accuracy": 0.4269230769230769,
+      "macro avg": {
+        "precision": 0.43944405360866945,
+        "recall": 0.4266099397678345,
+        "f1-score": 0.4082447843467461,
+        "support": 260.0
+      },
+      "weighted avg": {
+        "precision": 0.4614435124484345,
+        "recall": 0.4269230769230769,
+        "f1-score": 0.4245453948375139,
+        "support": 260.0
+      }
+    }
+  },
+  "lr_too_high": {
+    "params": 6458758,
+    "best_val_acc": 0.3309608540925267,
+    "best_epoch": 4,
+    "test_acc": 0.2153846153846154,
+    "test_loss": 1.723544979095459,
+    "diverged": false,
+    "first_layer_grad_epoch1": 2.965258936211467,
+    "last_layer_grad_epoch1": 1.3493793845176696,
+    "dead_relu_last_epoch": [
+      0.0,
+      0.0,
+      0.984375
+    ]
+  },
+  "deep_sigmoid": {
+    "params": 6555462,
+    "best_val_acc": 0.17437722419928825,
+    "best_epoch": 9,
+    "test_acc": 0.15,
+    "test_loss": 1.801868594609774,
+    "diverged": false,
+    "first_layer_grad_epoch1": 0.0002973721078888047,
+    "last_layer_grad_epoch1": 0.8959837421774864,
+    "dead_relu_last_epoch": []
+  },
+  "deep_relu_he": {
+    "params": 6555462,
+    "best_val_acc": 0.44483985765124556,
+    "best_epoch": 3,
+    "test_acc": 0.3769230769230769,
+    "test_loss": 1.6118251507098857,
+    "diverged": false,
+    "first_layer_grad_epoch1": 17.233605909347535,
+    "last_layer_grad_epoch1": Infinity,
+    "dead_relu_last_epoch": [
+      0.0,
+      0.0078125,
+      0.02734375,
+      0.0625,
+      0.1640625,
+      0.0625,
+      0.25,
+      0.234375
+    ]
+  },
+  "no_regularisation": {
+    "params": 6456966,
+    "best_val_acc": 0.45907473309608543,
+    "best_epoch": 2,
+    "test_acc": 0.3192307692307692,
+    "test_loss": 2.393363354756282,
+    "diverged": false,
+    "first_layer_grad_epoch1": 16.50339617729187,
+    "last_layer_grad_epoch1": Infinity,
+    "dead_relu_last_epoch": [
+      0.0,
+      0.2109375,
+      0.1640625
+    ]
+  },
+  "bad_init_large": {
+    "params": 6456966,
+    "best_val_acc": 0,
+    "best_epoch": -1,
+    "test_acc": NaN,
+    "test_loss": NaN,
+    "diverged": true,
+    "first_layer_grad_epoch1": null,
+    "last_layer_grad_epoch1": null,
+    "dead_relu_last_epoch": null
+  }
+}

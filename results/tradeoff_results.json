@@ -1,0 +1,40 @@
+{
+  "hog_logreg": {
+    "test_acc": 0.4807692307692308,
+    "macro_f1": 0.48531172502782244,
+    "train_s": 2.1270127296447754,
+    "cpu_ms_per_image": 0.9690554999997403,
+    "size_mb": 0.131669,
+    "gpu_needed": false
+  },
+  "hog_svm_rbf": {
+    "test_acc": 0.5384615384615384,
+    "macro_f1": 0.54451943516907,
+    "train_s": 1.8720884323120117,
+    "cpu_ms_per_image": 2.3184331799984648,
+    "size_mb": 18.220428,
+    "gpu_needed": false
+  },
+  "mlp": {
+    "test_acc": 0.4269230769230769,
+    "macro_f1": 0.4082447843467461,
+    "cpu_ms_per_image": 1.8241333000014492,
+    "size_mb": 25.849374,
+    "params": 6458758,
+    "gpu_needed": "training only"
+  },
+  "resnet18_finetuned": {
+    "test_acc": 0.8923076923076924,
+    "macro_f1": 0.8910772089812958,
+    "cpu_ms_per_image": 59.96430910000072,
+    "size_mb": 44.795339,
+    "params": 11179590,
+    "gpu_needed": "training only"
+  },
+  "resnet_emb_logreg": {
+    "test_acc": 0.8961538461538462,
+    "macro_f1": 0.8939577323947252,
+    "train_s": 0.051957130432128906,
+    "note": "latency ~= ResNet backbone + negligible head"
+  }
+}

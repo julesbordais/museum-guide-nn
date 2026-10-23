@@ -1,0 +1,52 @@
+{
+  "tfidf": {
+    "recall_at_1": 0.8541666666666666,
+    "recall_at_5": 0.9791666666666666,
+    "mrr": 0.8972222222222221,
+    "index_build_s": 0.08527326583862305,
+    "ms_per_query": 0.11085470517476399,
+    "vocab": 273,
+    "top1_style_acc": 0.8541666666666666
+  },
+  "minilm": {
+    "recall_at_1": 0.9375,
+    "recall_at_5": 0.9583333333333334,
+    "mrr": 0.9508680555555555,
+    "index_build_s": 0.8653769493103027,
+    "ms_per_query": 0.5174924929936727,
+    "dim": 384,
+    "top1_style_acc": 0.9375
+  },
+  "hybrid_0.5": {
+    "recall_at_1": 0.9583333333333334,
+    "recall_at_5": 0.9791666666666666,
+    "mrr": 0.9692841880341879
+  },
+  "examples": [
+    {
+      "question": "Show me colourful pictures of soup cans and celebrities \u2014 something from Andy Warhol.",
+      "minilm_top1": "portrait by Andy Warhol. Style: Pop Art \u2014 mass culture, advertising and comics imagery, bold flat colours, 1950s-60s.",
+      "tfidf_top1": "portrait by Andy Warhol. Style: Pop Art \u2014 mass culture, advertising and comics imagery, bold flat colours, 1950s-60s."
+    },
+    {
+      "question": "Where can I see colourful pictures of soup cans and celebrities by Andy Warhol?",
+      "minilm_top1": "portrait by Andy Warhol. Style: Pop Art \u2014 mass culture, advertising and comics imagery, bold flat colours, 1950s-60s.",
+      "tfidf_top1": "portrait by Andy Warhol. Style: Pop Art \u2014 mass culture, advertising and comics imagery, bold flat colours, 1950s-60s."
+    },
+    {
+      "question": "Show me pictures of Paris caf\u00e9s and gardens with blurry strokes \u2014 something from Camille Pissarro.",
+      "minilm_top1": "portrait by Camille Pissarro. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France.",
+      "tfidf_top1": "portrait by Camille Pissarro. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France."
+    },
+    {
+      "question": "I'm looking for Camille Pissarro's work, the pictures of Paris caf\u00e9s and gardens with blurry strokes kind.",
+      "minilm_top1": "portrait by Camille Pissarro. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France.",
+      "tfidf_top1": "portrait by Camille Pissarro. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France."
+    },
+    {
+      "question": "I'm looking for Childe Hassam's work, the paintings with sunlight and quick dabs of paint kind.",
+      "minilm_top1": "genre painting by Childe Hassam. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France.",
+      "tfidf_top1": "portrait by Childe Hassam. Style: Impressionism \u2014 loose visible brushstrokes, outdoor light, everyday modern life, 19th-century France."
+    }
+  ]
+}
