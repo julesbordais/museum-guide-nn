@@ -1,0 +1,10 @@
+torch>=2.2
+torchvision>=0.17
+scikit-learn>=1.4
+scikit-image>=0.22
+sentence-transformers>=2.7
+datasets>=2.19
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+pillow>=10
